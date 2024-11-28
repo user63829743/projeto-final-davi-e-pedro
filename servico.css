@@ -1,0 +1,93 @@
+/*pagina serviço*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background-color: #2f4f4f;
+    color: #ffffff;
+    padding: 20px 0;
+}
+
+nav ul {
+    list-style: none;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+main {
+    padding: 30px 15px;
+}
+
+footer {
+    background-color: #2f4f4f;
+    color: white;
+    text-align: center;
+    padding: 12px;
+}
+
+.banner {
+    text-align: center;
+    padding: 50px 0;
+}
+
+.banner h1 {
+    font-size: 36px;
+    color: #000000;
+}
+
+.banner p {
+    font-size: 20px;
+    color: #555;
+}
+
+/* Detalhes do serviço */
+.servico-detalhes {
+    padding: 40px 20px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.servico-detalhes h2 {
+    font-size: 28px;
+    margin-bottom: 15px;
+}
+
+.servico-detalhes ul {
+    list-style-type: none;
+    margin-bottom: 20px;
+}
+
+.servico-detalhes ul li {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.servico-detalhes .preco {
+    font-size: 22px;
+    color: #ff8c00;
+    margin: 20px 0;
+}
+

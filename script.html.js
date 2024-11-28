@@ -1,0 +1,1 @@
+window.confirm("você sera redirecionado para o Site PetMania")

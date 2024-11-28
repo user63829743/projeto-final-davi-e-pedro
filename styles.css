@@ -1,0 +1,479 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background-color: #2f4f4f;
+    color: #ffffff;
+    padding: 20px 0;
+}
+
+nav ul {
+    list-style: none;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+main {
+    padding: 30px 15px;
+}
+
+section {
+    margin-bottom: 40px;
+}
+
+h1{
+    color: #fff;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+h2 {
+    color: #000000;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+footer {
+    background-color: #2f4f4f;
+    color: white;
+    text-align: center;
+    padding: 12px;
+}
+
+.alguns-produto header{
+    color: #000000;
+    background-color: #c70000;
+}
+
+.funcionamento{
+    text-align: center;
+}
+
+.banner {
+    background-color: #2f4f4f;
+    color: #ffffff;
+    text-align: center;
+    padding: 50px 0;
+    border-radius: 16px;
+}
+
+.banner img {
+    width: 100%;
+    max-height: 400px;
+    object-fit: cover;
+}
+
+.banner h1 {
+    font-size: 36px;
+    margin-top: 20px;
+}
+
+.sobre {
+    text-align: center;
+}
+
+.sobre p {
+    font-size: 18px;
+    line-height: 1.8;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.chamada {
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.chamada .cta {
+    background-color: #2f4f4f;
+    color: white;
+    padding: 12px 25px;
+    font-size: 18px;
+    text-decoration: none;
+    border-radius: 25px;
+    transition: background-color 0.3s;
+}
+
+.chamada .cta:hover {
+    background-color: #3e6e6e;
+}
+
+
+.banho_tosa{
+    background-size: cover;
+    background-position: center;
+    height: 40px;
+    margin-bottom: 40px;
+}
+
+
+
+/*pagina serviços*/
+.intro header{
+    background-color: #2f4f4f;
+    color: #ffffff;
+    padding: 20px 0;
+    border-radius: 16px;
+}
+
+.intro {
+    text-align: center;
+    padding: 50px 10%;
+}
+
+.intro h2 {
+    font-size: 2.5em;
+    color: #b9b2b2a4;
+}
+
+.intro p {
+    font-size: 1em;
+    color: #fffdfd;
+    margin-bottom: 40px;
+    margin: 10px 0;
+}
+
+.servicos-lista {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.servicos-oferecidos header{
+    background-color: #fff8e1;
+    width: 100%;
+}
+
+.servico {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 250px;
+    margin: 20px;
+    text-align: center;
+    padding: 20px;
+    transition: transform 0.3s;
+}
+
+.servico img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.servico button {
+    background-color: #ffcc00;
+    color: white;
+    border: none;
+    padding: 10px;
+    width: 100%;
+    border-radius: 5px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.servico button:hover {
+    background-color: #ff9900;
+}
+
+.servico h3 {
+    font-size: 1.5em;
+    margin-top: 10px;
+    color: #333;
+}
+
+.servico p {
+    font-size: 1em;
+    color: #555;
+    margin-bottom: 40px;
+    margin: 10px 0;
+}
+
+.servico:hover {
+    transform: scale(1.05);
+}
+
+
+
+
+
+
+
+/*pagina produtos*/
+.produtos header{
+    background-color: #2f4f4f;
+    color: #ffffffa6;
+    padding: 20px 0;
+    border-radius: 16px;
+}
+
+.produtos {
+    text-align: center;
+    padding: 50px 10%;
+}
+
+.produtos p {
+    font-size: 1em;
+    color: #ffffff;
+    margin-bottom: 40px;
+    margin: 10px 0;
+}
+
+.produtos h2 {
+    font-size: 2.5em;
+    color: #b9b2b2a4;
+}    
+
+.produto-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.produto p{
+    font-size: 1em;
+    color: #555;
+    margin-bottom: 40px;
+    margin: 10px 0;
+}
+
+.produto {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 250px;
+    margin: 20px;
+    text-align: center;
+    padding: 20px;
+    transition: transform 0.3s;
+}
+
+.produto:hover {
+    transform: scale(1.05);
+}
+
+.produto img {
+    width: 100%;
+    max-width: 400px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.produto h3 {
+    font-size: 1.5em;
+    margin-top: 10px;
+    color: #333;
+}
+.produto span {
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #ffcc00;
+}
+
+.produto button {
+    background-color: #ffcc00;
+    color: white;
+    border: none;
+    padding: 10px;
+    width: 100%;
+    border-radius: 5px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.produto button:hover {
+    background-color: #ff9900;
+}
+
+
+
+/*pagina localizacao*/
+section#localizacao {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+section#localizacao h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #2c3e50;
+}
+
+article {
+    margin-bottom: 40px;
+}
+
+/* Estilos do endereço */
+article h3 {
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+    color: #34495e;
+}
+
+address {
+    font-style: normal;
+    color: #7f8c8d;
+}
+
+address p {
+    margin-bottom: 10px;
+}
+
+/* Estilos do mapa */
+iframe {
+    border: none;
+    width: 100%;
+    max-width: 600px;
+    height: 350px;
+    margin-top: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+
+
+/*pagina contato*/
+.informacoes {
+    background-color: #fff;
+    padding: 40px;
+    text-align: center;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    margin-bottom: 40px;
+}
+
+.informacoes h2 {
+    font-size: 2.5em;
+    color: #333;
+}
+
+.informacoes p {
+    font-size: 1.2em;
+    color: #666;
+    margin-bottom: 30px;
+}
+
+.contato-details {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 30px;
+}
+
+.detalhes {
+    max-width: 300px;
+}
+
+.detalhes h3 {
+    font-size: 1.8em;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.detalhes p {
+    font-size: 1.2em;
+    color: #666;
+}
+
+.social-media ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.social-media ul li {
+    margin: 0 15px;
+}
+
+.social-media ul li a {
+    color: #ff6347;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+.social-media ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Formulário de contato */
+.formulario-contato {
+    background-color: #fff;
+    padding: 40px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.formulario-contato h2 {
+    font-size: 2.5em;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.formulario-contato .form-group {
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.formulario-contato label {
+    display: block;
+    font-size: 1.2em;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.formulario-contato input,
+.formulario-contato textarea {
+    width: 100%;
+    padding: 15px;
+    font-size: 1.1em;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}
+
+.formulario-contato textarea {
+    height: 150px;
+}
+
+.formulario-contato button {
+    background-color: #ff6347;
+    color: white;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 8px;
+    font-size: 1.2em;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.formulario-contato button:hover {
+    background-color: #e5533b;
+}
+
+
+
+
+
